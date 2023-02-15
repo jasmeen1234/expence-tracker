@@ -1,7 +1,7 @@
 import ExpenseDate from './ExpenseDate';
 import Card from '../UI/Card';
 import './ExpenseItem.css';
-import { useState } from 'react';
+
 
 function ExpenseItem(props){ 
     return(
@@ -13,6 +13,7 @@ function ExpenseItem(props){
                 <div className='expense-item__price'>${props.amount}</div>
             </div>
         </Card>
+
         </li>
         
         
